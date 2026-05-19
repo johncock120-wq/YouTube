@@ -166,7 +166,7 @@ a {
     text-align: center;
 
     margin-top: 6px;
-    margin-bottom: 0px; /* reduced gap */
+    margin-bottom: 0px;
 
     text-shadow: 0 0 10px rgba(212,175,55,0.35);
 }
