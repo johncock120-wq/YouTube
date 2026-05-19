@@ -609,7 +609,6 @@ h2 {
 }
 
 /* CHECKBOX */
-
 #settingsPanel label input[type="checkbox"] {
     flex-shrink: 0;
     margin: 0;
