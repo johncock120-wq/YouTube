@@ -21,7 +21,6 @@ a {
     -webkit-user-select: none;
 }
 
-/* 🔒 FULL SCREEN BLUR LOCK */
 #keyOverlay {
     position: fixed;
     inset: 0;
@@ -36,7 +35,6 @@ a {
     -webkit-backdrop-filter: blur(10px);
 }
 
-/* 🔑 KEY BOX (FIXED NAME TO MATCH JS) */
 .keyBox {
     width: 75%;
     max-width: 260px;
@@ -98,7 +96,6 @@ a {
     overflow: hidden;
 }
 
-/* HOVER GLOW + LIFT */
 .keyBox button:hover {
     transform: translateY(-2px);
     box-shadow:
@@ -107,14 +104,12 @@ a {
         inset 0 0 8px rgba(255, 255, 255, 0.08);
 }
 
-/* CLICK PRESS EFFECT */
 .keyBox button:active {
     transform: scale(0.97);
     box-shadow:
         0 0 6px rgba(22, 163, 74, 0.4);
 }
 
-/* OPTIONAL: subtle shine sweep animation */
 .keyBox button::before {
     content: "";
     position: absolute;
