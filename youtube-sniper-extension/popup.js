@@ -91,7 +91,7 @@ document.querySelectorAll(".tabBtn").forEach(btn => {
             panelTitle.textContent = "Pinned links";
             panelSubText.textContent = "Links that you pinned";
             if (panelTitleInfoPopup) {
-                panelTitleInfoPopup.textContent = "Links you've pinned so they don't get lost.";
+                panelTitleInfoPopup.textContent = "Links that you pinned.";
             }
 
             loadPinnedLinks();
